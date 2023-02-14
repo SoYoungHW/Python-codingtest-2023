@@ -17,7 +17,7 @@ def isStackFull():
 def isStackEmpty():
     global SIZE, stack, top # 전역변수를 그대로 함수에서도 쓸래
 
-    if(top == SIZE-1): # 비어있는 상태
+    if(top == -1): # 비어있는 상태
         return True
     else:
         return False
