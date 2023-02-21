@@ -44,9 +44,10 @@
 1. 코딩테스트 학습
     - 자료구조
         - [ ] deque (덱)
-    - 코딩테스트 알고리즘
-        - 백준
-        - 프로그래머스
+    - 알고리즘
+        - [ ] 투포인터
+        - [ ] 슬라이딩 윈도우
+        - [ ] 정렬
 ```python
 # 백준 11003 최솟값 찾기1
 from collections import deque
@@ -64,3 +65,15 @@ for i in range(N):
         mydeque.popleft()
     print(mydeque[0][0], end=' ') # 무조건 최솟값(min()과 동일)
 ```
+
+## 7일차
+1. 코딩테스트 학습
+    - 자료구조
+        - [ ] 그래프
+        - [ ] PriorityQueue (우선순위 큐)
+        - [ ] heapQ (힙큐)
+    - 알고리즘
+        - [ ] 탐색 - DFS/BFS/이진탐색
+        - [ ] 그리디
+        - [ ] 정수론
+        
